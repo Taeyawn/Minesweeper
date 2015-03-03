@@ -62,7 +62,6 @@ public void displayLosingMessage()
     {
         for(int j = 0; j < NUM_ROWS; j++)
         {
-            System.out.println(i + ", " + j);
             if(bombs.contains(buttons[i][j]))
             {
 
